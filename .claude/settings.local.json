@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(mkdir -p design-ref)",
+      "Bash(mv _extracted/*.png design-ref/)",
+      "Bash(rmdir _extracted)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack --disable-git)",
+      "Bash(npx --yes create-next-app@latest real-estate-admin --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(rmdir real-estate-admin *)",
+      "Bash(rm -rf real-estate-admin)",
+      "Bash(npx --yes shadcn@latest init -y -b neutral)",
+      "Bash(npx --yes shadcn@latest init -y)",
+      "Bash(npx --yes shadcn@2.3.0 init -d)",
+      "Bash(npx --yes shadcn@latest init --help)",
+      "Bash(npx --yes shadcn@latest init -d)",
+      "Bash(npx --yes shadcn@latest add button input label card table badge dialog dropdown-menu avatar select textarea checkbox tabs separator sonner skeleton popover calendar form scroll-area sheet tooltip -y -o)",
+      "Bash(npm install *)",
+      "Bash(node -e \"console.log\\(require\\('crypto'\\).randomBytes\\(32\\).toString\\('hex'\\)\\)\")",
+      "Bash(npm run *)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\USER\\\\Desktop\\\\Real-Estate-Admin-Panel\\\\src\\\\server\\\\auth\" \"C:\\\\Users\\\\USER\\\\Desktop\\\\Real-Estate-Admin-Panel\\\\src\\\\lib\" \"C:\\\\Users\\\\USER\\\\Desktop\\\\Real-Estate-Admin-Panel\\\\src\\\\app\\\\api\\\\auth\\\\[...all]\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\USER\\\\Desktop\\\\Real-Estate-Admin-Panel\\\\src\\\\server\\\\api\\\\routers\" \"C:\\\\Users\\\\USER\\\\Desktop\\\\Real-Estate-Admin-Panel\\\\src\\\\app\\\\api\\\\trpc\\\\[trpc]\" \"C:\\\\Users\\\\USER\\\\Desktop\\\\Real-Estate-Admin-Panel\\\\src\\\\trpc\")",
+      "Bash(npx tsc *)",
+      "Bash(npx --yes shadcn@latest init -d -b radix -f)",
+      "Bash(npx --yes shadcn@latest add button input label card table badge dialog dropdown-menu avatar select textarea checkbox tabs separator sonner skeleton popover calendar form scroll-area sheet tooltip -y -o --reinstall)",
+      "Bash(rm -f src/components/ui/*.tsx)",
+      "Bash(npx eslint *)",
+      "Bash(curl -s -X POST \"https://api.cloudinary.com/v1_1/duwcjarrk/image/upload\" -F \"file=@/tmp/test.png\" -F \"upload_preset=real-estate-admin\")",
+      "Bash(gh --version)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
